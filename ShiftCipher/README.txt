@@ -12,3 +12,8 @@ analyze.py is used to find certain statistics about your shifted data
 It will give you a normalized IOC as we ll as the entropy of the data
 This can be run by doing:
 .\analyze.py <-az (for alphabet) -b (for binary)>
+
+compare.py is used to also find statistics about data but compares files
+It will give you the chi squared distance between files as well as the Bhattacharyya distance between two probability distributions.
+This can be run by doing:
+.\compare.py <-az (for alphabet) -b (for binary)> <firstfile> <secondfile>
